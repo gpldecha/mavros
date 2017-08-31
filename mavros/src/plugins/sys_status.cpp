@@ -639,6 +639,7 @@ private:
 			return;
 		}
 
+
 		// update context && setup connection timeout
 		m_uas->update_heartbeat(hb.type, hb.autopilot, hb.base_mode);
 		m_uas->update_connection_status(true);

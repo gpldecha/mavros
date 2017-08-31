@@ -10,23 +10,23 @@ add_message_files(
   FILES
   ADSBVehicle.msg
   ActuatorControl.msg
-  Altitude.msg
-  AttitudeTarget.msg
+  # Altitude.msg
+  # AttitudeTarget.msg
   BatteryStatus.msg
   CamIMUStamp.msg
   CommandCode.msg
   ExtendedState.msg
   FileEntry.msg
   GlobalPositionTarget.msg
-  HilActuatorControls.msg
-  HilControls.msg
-  HilSensor.msg
-  HilStateQuaternion.msg
-  HilGPS.msg
+  # HilActuatorControls.msg
+  # HilControls.msg
+  # HilSensor.msg
+  # HilStateQuaternion.msg
+  # HilGPS.msg
   HomePosition.msg
   ManualControl.msg
   Mavlink.msg
-  OpticalFlowRad.msg
+  # OpticalFlowRad.msg
   OverrideRCIn.msg
   ParamValue.msg
   PositionTarget.msg
@@ -37,8 +37,8 @@ add_message_files(
   Thrust.msg
   VFR_HUD.msg
   Vibration.msg
-  Waypoint.msg
-  WaypointList.msg
+  # Waypoint.msg
+  # WaypointList.msg
 )
 
 add_service_files(
@@ -50,27 +50,27 @@ add_service_files(
   CommandLong.srv
   CommandTOL.srv
   CommandTriggerControl.srv
-  FileChecksum.srv
-  FileClose.srv
-  FileList.srv
-  FileMakeDir.srv
-  FileOpen.srv
-  FileRead.srv
-  FileRemove.srv
-  FileRemoveDir.srv
-  FileRename.srv
-  FileTruncate.srv
-  FileWrite.srv
+ # FileChecksum.srv
+ # FileClose.srv
+ # FileList.srv
+ # FileMakeDir.srv
+ # FileOpen.srv
+ # FileRead.srv
+ # FileRemove.srv
+ # FileRemoveDir.srv
+ # FileRename.srv
+ # FileTruncate.srv
+ # FileWrite.srv
   ParamGet.srv
   ParamPull.srv
   ParamPush.srv
   ParamSet.srv
   SetMode.srv
-  StreamRate.srv
-  WaypointClear.srv
-  WaypointPull.srv
-  WaypointPush.srv
-  WaypointSetCurrent.srv
+ # StreamRate.srv
+ # WaypointClear.srv
+ # WaypointPull.srv
+ # WaypointPush.srv
+ # WaypointSetCurrent.srv
 )
 
 # add_action_files(
