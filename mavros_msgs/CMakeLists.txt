@@ -8,8 +8,8 @@ include_directories(include)
 add_message_files(
   DIRECTORY msg
   FILES
-  ADSBVehicle.msg
-  ActuatorControl.msg
+  # ADSBVehicle.msg
+  # ActuatorControl.msg
   # Altitude.msg
   # AttitudeTarget.msg
   BatteryStatus.msg
@@ -17,7 +17,7 @@ add_message_files(
   CommandCode.msg
   ExtendedState.msg
   FileEntry.msg
-  GlobalPositionTarget.msg
+  # GlobalPositionTarget.msg
   # HilActuatorControls.msg
   # HilControls.msg
   # HilSensor.msg
@@ -29,14 +29,14 @@ add_message_files(
   # OpticalFlowRad.msg
   OverrideRCIn.msg
   ParamValue.msg
-  PositionTarget.msg
+  # PositionTarget.msg
   RCIn.msg
   RCOut.msg
   RadioStatus.msg
   State.msg
-  Thrust.msg
-  VFR_HUD.msg
-  Vibration.msg
+  # Thrust.msg
+  # VFR_HUD.msg
+  # Vibration.msg
   # Waypoint.msg
   # WaypointList.msg
 )

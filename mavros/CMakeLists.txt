@@ -203,20 +203,20 @@ install(DIRECTORY launch/
 ## Testing ##
 #############
 
-if(CATKIN_ENABLE_TESTING)
+#if(CATKIN_ENABLE_TESTING)
 
-catkin_add_gtest(libmavros-frame-conversions-test test/test_frame_conversions.cpp)
-target_link_libraries(libmavros-frame-conversions-test mavros)
+#catkin_add_gtest(libmavros-frame-conversions-test test/test_frame_conversions.cpp)
+#target_link_libraries(libmavros-frame-conversions-test mavros)
 
-catkin_add_gtest(libmavros-sensor-orientation-test test/test_sensor_orientation.cpp)
-target_link_libraries(libmavros-sensor-orientation-test mavros)
+#catkin_add_gtest(libmavros-sensor-orientation-test test/test_sensor_orientation.cpp)
+#target_link_libraries(libmavros-sensor-orientation-test mavros)
 
-catkin_add_gtest(libmavros-quaternion-utils-test test/test_quaternion_utils.cpp)
-target_link_libraries(libmavros-quaternion-utils-test mavros)
+#catkin_add_gtest(libmavros-quaternion-utils-test test/test_quaternion_utils.cpp)
+#target_link_libraries(libmavros-quaternion-utils-test mavros)
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 
-endif()
+# endif()
 
 # vim: ts=2 sw=2 et:
