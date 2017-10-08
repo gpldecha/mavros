@@ -8,14 +8,4 @@ plugin_blacklist:
 - rangefinder
 
 plugin_whitelist: []
- - sys_status
- - sys_time
- - imu_pub
- - param
- - rc_io
- - command
- - local_position
- - global_position
- - manual_control
- - hil
- - home_position
+#- 'sys_*'
