@@ -7,7 +7,7 @@ plugin_blacklist:
 - distance_sensor
 - rangefinder
 
-plugin_whitelist: []
+plugin_whitelist:
 - sys_status
 - sys_time
 - imu_pub
